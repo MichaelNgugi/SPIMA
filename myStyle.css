@@ -1,0 +1,97 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.5;
+    color: #000000;
+  }
+h5 {
+  color: #000000;
+  border-width: 80%;
+  border-radius: 15px;
+  font-size: large;
+}
+span.invalid-feedback {
+  border-radius: 8px; 
+  background-color: rgba(115, 184, 109, 0.795);
+}
+  .container-fluid {
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 90%;
+    background-color: rgba(115, 184, 109, 0.795);
+  }
+  .container-fluid2 {
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(189, 183, 107);
+  }
+  .navbar {
+    margin-bottom: 0;
+    min-height: 40px;
+    background-color: #77a8c9;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar-brand {
+    letter-spacing: 6px;
+    font-size: 25px;
+  }
+  .navbar ul li a, .navbar .navbar-brand {
+    color: #ffffff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff;
+  }
+.wrapper {
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+}
+#roundcorn {
+  margin: auto;
+    line-height: 2.0;
+    border-radius: 25px;
+    background: #b6d5df;
+    padding: 25px; 
+    width: 500px;
+    height: auto;
+}
+label {
+    font-size: large;
+}
+table {
+  border: 2px; 
+  letter-spacing: 0.01px;
+}
+.btn {
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    color: black;
+}
+.col-sm-4 {
+  border: 1px solid black;
+}
+div.col-sm {
+  border: 1px solid black;
+}
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
